@@ -118,6 +118,13 @@
 			"recommended": true,
 			"type": "warning",
 			"description": "Ensure a) A PRAGMA directive exists and b) its on top of the file"
+		},
+
+		"no-use-before-define": {
+			"enabled": true,
+			"recommended": true,
+			"type": "warning",
+			"description": "Ensure no variable or function is used or called before its definition."
 		}
 	}
 }
